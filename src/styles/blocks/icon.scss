@@ -11,6 +11,10 @@
   &--phone {
     position: relative;
     background-image: url(../images/icons/Icon-Phone-call.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &::before {
       content: '+1 234 555-55-55';
